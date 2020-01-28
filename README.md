@@ -3,8 +3,15 @@ Demo project using Python and NASA API to find object landing sites
 
 ## Running
 
-This project requires Python 3 and the requests package.
+This project requires Python 3. 
 
-```shell
-python3 find_objects.py
+Install pipenv
+```
+pip3 install pipenv
+```
+
+Then run the project
+```
+pipenv install
+pipenv run python find_objects.py
 ```
